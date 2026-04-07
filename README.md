@@ -26,7 +26,7 @@ Esses gráficos foram utilizados para entender os padrões dos dados antes da co
 
 ### 📊 Gráficos gerados no Python
 
-#### Distribuição por Estado e Sexo
+#### Envolvimento em Acidentes por Estado e Sexo
 ![Gráfico Python 1](grafico1.png)
 
 #### Top 10 Causas de Acidentes
@@ -63,7 +63,7 @@ Após o tratamento dos dados, foi desenvolvido um dashboard interativo no Power 
 ## 💡 Insights obtidos
 - Alguns estados concentram maior número de mortes  
 - O número de vítimas do sexo masculino é significativamente maior  
-- Certas causas de acidentes aparecem com frequência muito superior às demais  
+- Estados como MG, PR e BA apresentam maior concentração de mortes 
 
 ---
 
