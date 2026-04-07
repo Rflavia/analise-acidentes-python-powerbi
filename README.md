@@ -1,9 +1,9 @@
 # 📊 Análise de Acidentes no Brasil - 2025
 
 ## 📌 Sobre o projeto
-Este projeto foi desenvolvido com o objetivo de analisar dados de acidentes no Brasil, utilizando Python para tratamento e exploração dos dados e Power BI para criação de dashboards interativos.
+Este projeto tem como objetivo analisar dados de acidentes no Brasil, utilizando Python para tratamento e exploração dos dados e Power BI para criação de dashboards interativos.
 
-O foco foi transformar dados brutos em informações claras e visuais que permitam identificar padrões e gerar insights relevantes.
+O foco foi transformar dados brutos em informações visuais claras, permitindo identificar padrões e gerar insights relevantes.
 
 ---
 
@@ -20,33 +20,43 @@ Durante o desenvolvimento, foi realizada uma análise exploratória utilizando P
 
 Foram utilizadas:
 - **Pandas** para leitura, limpeza e manipulação dos dados  
-- **Matplotlib** para geração de gráficos iniciais  
+- **Matplotlib** para geração de gráficos exploratórios  
 
-Esses gráficos ajudaram a entender os padrões dos dados antes da construção do dashboard no Power BI.
+Esses gráficos foram utilizados para entender os padrões dos dados antes da construção do dashboard no Power BI.
+
+### 📊 Gráficos gerados no Python
+
+#### Distribuição por Estado e Sexo
+![Gráfico Python 1](grafico1.png)
+
+#### Top 10 Causas de Acidentes
+![Gráfico Python 2](grafico2.png)
+
+---
+
+## 📊 Dashboard no Power BI
+Após o tratamento dos dados, foi desenvolvido um dashboard interativo no Power BI para visualização das informações.
+
+![Dashboard](dashboard.png)
 
 ---
 
 ## 🔍 Etapas do projeto
 - Leitura do arquivo CSV
 - Seleção das colunas relevantes
-- Limpeza dos dados (remoção de valores como "Não Informado")
+- Limpeza dos dados (remoção de valores como "Não Informado" e "Ignorado")
 - Tratamento de valores nulos
 - Agrupamento por estado e sexo
 - Análise das principais causas de acidentes
 - Criação de gráficos exploratórios em Python
-- Desenvolvimento de dashboard no Power BI
+- Construção do dashboard no Power BI
 
 ---
 
 ## 📊 Análises realizadas
 - Mortes por estado  
-- Mortes por sexo  
+- Comparação de mortes por sexo  
 - Ranking das principais causas de acidentes  
-
----
-
-## 📷 Dashboard
-![Dashboard](dashboard.png)
 
 ---
 
@@ -58,14 +68,14 @@ Esses gráficos ajudaram a entender os padrões dos dados antes da construção 
 ---
 
 ## 📁 Dados
-Foi utilizada uma amostra do dataset devido ao tamanho do arquivo original.
+O dataset utilizado foi o arquivo **"acidentes2025.csv"**, baseado em dados públicos da Polícia Rodoviária Federal (PRF).
 
-O dataset completo é público e foi obtido através do portal de dados abertos da Polícia Rodoviária Federal (PRF):
+Devido ao tamanho do arquivo, ele não foi incluído neste repositório.
 
-🔗 https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf
+🔗 Dataset original: https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf
 
-Arquivo utilizado:
-**Documento CSV de Acidentes 2026 (Agrupados por pessoa - Todas as causas e tipos de acidentes)**
+
+Planilha - Documento CSV de Acidentes 2026 (Agrupados por pessoa - Todas as causas e tipos de acidentes)
 
 ---
 
