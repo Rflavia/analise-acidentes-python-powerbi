@@ -1,32 +1,33 @@
-# 📊 Análise de Acidentes no Brasil - 2025
+📊 Análise de Acidentes no Brasil - 2025
+Sobre o projeto
 
-## Sobre o projeto
-Este projeto tem como objetivo analisar dados de acidentes no Brasil, utilizando Python para tratamento e exploração dos dados e Power BI para criação de dashboards interativos.
+Este projeto foi desenvolvido com o objetivo de analisar dados de acidentes de trânsito no Brasil utilizando Python e Power BI.
 
-O foco foi transformar dados brutos em informações visuais claras, permitindo identificar padrões e gerar insights relevantes.
+A análise envolveu tratamento, exploração e visualização dos dados, buscando identificar padrões e transformar informações brutas em insights relevantes de forma clara e organizada.
 
----
+O projeto também inclui geração de gráficos exploratórios em Python e construção de dashboard interativo no Power BI para apoio à análise dos dados.
 
-## Tecnologias utilizadas
-- Python
-- Pandas
-- Matplotlib
-- Power BI
+Tecnologias utilizadas
+Python
+Pandas
+Matplotlib
+Power BI
+Análise exploratória com Python
 
----
+Durante o desenvolvimento do projeto, foi realizada uma análise exploratória dos dados utilizando Python.
 
-## 🐍 Análise com Python
-Durante o desenvolvimento, foi realizada uma análise exploratória utilizando Python.
+Foram aplicadas técnicas de:
 
-Foram utilizadas:
-- **Pandas** para leitura, limpeza e manipulação dos dados  
-- **Matplotlib** para geração de gráficos exploratórios  
+leitura e manipulação de dados com Pandas
+limpeza e tratamento de informações
+análise estatística básica
+geração de gráficos exploratórios com Matplotlib
 
-Esses gráficos foram utilizados para entender os padrões dos dados antes da construção do dashboard no Power BI.
+Além disso, foi criado um relatório automatizado em Markdown contendo os principais resultados da análise.
 
-### Gráficos gerados no Python
+### Visualizações geradas em Python
 
-#### Envolvimento em Acidentes por Estado e Sexo
+#### Boxplot regional de acidentes
 ![Gráfico Python 1](grafico1.png)
 
 #### Top 10 Causas de Acidentes
@@ -35,47 +36,53 @@ Esses gráficos foram utilizados para entender os padrões dos dados antes da co
 ---
 
 ## Dashboard no Power BI
-Após o tratamento dos dados, foi desenvolvido um dashboard interativo no Power BI para visualização das informações.
+Após o tratamento dos dados, foi desenvolvido um dashboard interativo no Power BI para facilitar a visualização das informações analisadas.
 
 ![Dashboard](dashboard.png)
 
 ---
 
-## 🔍 Etapas do projeto
-- Leitura do arquivo CSV
-- Seleção das colunas relevantes
-- Limpeza dos dados (remoção de valores como "Não Informado" e "Ignorado")
-- Tratamento de valores nulos
-- Agrupamento por estado e sexo
-- Análise das principais causas de acidentes
-- Criação de gráficos exploratórios em Python
-- Construção do dashboard no Power BI
+Relatório automatizado
 
----
+O projeto também gera automaticamente um relatório em Markdown contendo:
 
-## 📊 Análises realizadas
-- Mortes por estado  
-- Comparação de mortes por sexo  
-- Ranking das principais causas de acidentes  
+resumo numérico dos dados
+colunas analisadas
+gráficos gerados
+principais resultados obtidos durante a execução
 
----
+Etapas realizadas
+Leitura do arquivo CSV
+Seleção das colunas relevantes
+Tratamento de valores nulos
+Criação de variáveis auxiliares
+Agrupamentos e análises estatísticas
+Geração de gráficos exploratórios
+Separação entre treino e teste
+Construção do dashboard no Power BI
+Geração automatizada de relatório
+Análises realizadas
+Comparação de acidentes por estado
+Comparação por sexo
+Identificação das principais causas de acidentes
+Distribuição regional dos dados
+Visualização estatística por região
+Resultados observados
 
-##  Insights obtidos
-- Alguns estados concentram maior número de mortes  
-- O número de vítimas do sexo masculino é significativamente maior  
-- Estados como MG, PR e BA apresentam maior concentração de mortes 
+A análise permitiu identificar diferenças significativas entre estados e perfis de vítimas, além de destacar padrões recorrentes relacionados às principais causas de acidentes registrados.
 
----
+Os dados também demonstraram maior concentração de ocorrências envolvendo vítimas do sexo masculino em diversos estados analisados.
 
-##  Dados
-O dataset utilizado foi o arquivo **"acidentes2025.csv"**, baseado em dados públicos da Polícia Rodoviária Federal (PRF).
+Dados utilizados
 
-Devido ao tamanho do arquivo, ele não foi incluído neste repositório.
+O dataset utilizado neste projeto foi baseado em dados públicos disponibilizados pela Polícia Rodoviária Federal (PRF).
 
-🔗 Dataset original: https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf
+Arquivo utilizado:
 
+acidentes2025.csv
 
-Planilha - Documento CSV de Acidentes 2026 (Agrupados por pessoa - Todas as causas e tipos de acidentes)
+Fonte oficial:
+https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf
 
----
+Devido ao tamanho do arquivo original, ele não foi incluído neste repositório.
 
