@@ -1,13 +1,13 @@
 # 📊 Análise de Acidentes no Brasil - 2025
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 Este projeto tem como objetivo analisar dados de acidentes no Brasil, utilizando Python para tratamento e exploração dos dados e Power BI para criação de dashboards interativos.
 
 O foco foi transformar dados brutos em informações visuais claras, permitindo identificar padrões e gerar insights relevantes.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 - Python
 - Pandas
 - Matplotlib
@@ -24,7 +24,7 @@ Foram utilizadas:
 
 Esses gráficos foram utilizados para entender os padrões dos dados antes da construção do dashboard no Power BI.
 
-### 📊 Gráficos gerados no Python
+### Gráficos gerados no Python
 
 #### Envolvimento em Acidentes por Estado e Sexo
 ![Gráfico Python 1](grafico1.png)
@@ -34,7 +34,7 @@ Esses gráficos foram utilizados para entender os padrões dos dados antes da co
 
 ---
 
-## 📊 Dashboard no Power BI
+## Dashboard no Power BI
 Após o tratamento dos dados, foi desenvolvido um dashboard interativo no Power BI para visualização das informações.
 
 ![Dashboard](dashboard.png)
@@ -60,14 +60,14 @@ Após o tratamento dos dados, foi desenvolvido um dashboard interativo no Power 
 
 ---
 
-## 💡 Insights obtidos
+##  Insights obtidos
 - Alguns estados concentram maior número de mortes  
 - O número de vítimas do sexo masculino é significativamente maior  
 - Estados como MG, PR e BA apresentam maior concentração de mortes 
 
 ---
 
-## 📁 Dados
+##  Dados
 O dataset utilizado foi o arquivo **"acidentes2025.csv"**, baseado em dados públicos da Polícia Rodoviária Federal (PRF).
 
 Devido ao tamanho do arquivo, ele não foi incluído neste repositório.
